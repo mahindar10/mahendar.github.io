@@ -1,0 +1,77 @@
+
+.containmah{
+    max-width: 530px;
+    margin:22px;
+    padding:22px 40px;
+    border-radius: 10px;
+    width:fit-content;
+    background-color: rgb(255, 255, 255);
+}
+.containm{
+  max-width: 860px;
+  margin:22px;
+  padding:22px 50px;
+  border-radius: 30px;
+  width:fit-content;
+  background-color: rgb(255, 255, 255);
+}
+  body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #3050f4;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .mah-25 {
+    float: left;
+    width: 35%;
+    margin-top: 5px;
+    
+  }
+  
+  .mah-65 {
+    float: left;
+    width: 63%;
+    margin-top: 5px;
+  }
+button {
+   
+  
+}
+input{
+    border-radius: 5px;
+    border: none;
+    border-style: outset;
+    padding: 30px;
+   
+    
+}
+label{
+    font-size: large;
+}
+input#name:invalid:focus{
+    border: 6px solid green;
+  }
+  input#email:invalid:focus{
+    border: 6px solid green;
+  }
+  input#password:invalid:focus{
+    border: 6px solid green;
+  }
+  input#acceptTerms:invalid:focus{
+    border: 6px solid green;
+  }
+  input#dob:invalid:focus{
+    border: 6px solid green;
+  }
+
+
+  
+
+
